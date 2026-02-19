@@ -18,7 +18,7 @@ export function Hero() {
     <section className="relative overflow-hidden pt-32 pb-12">
       {/* Subtle grid + very faint top glow */}
       <div className="bg-grid pointer-events-none absolute inset-0" />
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(6,182,212,0.08)_0%,_transparent_50%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(232,67,147,0.08)_0%,_transparent_50%)]" />
 
       <div className="relative mx-auto max-w-4xl px-6 text-center">
         {/* Mono label */}
@@ -28,7 +28,7 @@ export function Hero() {
           transition={{ duration: 0.4 }}
           className="font-mono text-sm tracking-wide text-muted"
         >
-          unified &middot; pay-as-you-go &middot; developer-first
+          models + tools &middot; pay-as-you-go &middot; developer-first
         </motion.p>
 
         {/* Giant headline */}
@@ -38,9 +38,9 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.08 }}
           className="mt-8 text-4xl font-bold leading-[1.08] tracking-tight text-foreground-bright sm:text-6xl lg:text-8xl"
         >
-          One API key for
+          One API key,
           <br />
-          <span className="text-gradient">all AI models</span>
+          <span className="text-gradient">beyond AI models</span>
         </motion.h1>
 
         {/* Short subtitle */}
@@ -50,7 +50,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.16 }}
           className="mx-auto mt-8 max-w-xl text-lg leading-relaxed text-muted"
         >
-          Access Anthropic, OpenAI, and more through a single unified
+          AI models, search, web crawl, and more — all through a single
           endpoint. Pay as you go, no contracts.
         </motion.p>
 

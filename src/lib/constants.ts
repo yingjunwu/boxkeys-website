@@ -1,8 +1,8 @@
 export const SITE = {
   name: "BoxKeys",
-  tagline: "One API key for all AI models",
+  tagline: "One API key, beyond AI models",
   description:
-    "Access Anthropic, OpenAI, and more through a single unified endpoint. Pay as you go, no contracts.",
+    "AI models, search, web crawl, and more — all through a single endpoint. Pay as you go, no contracts.",
   url: "https://boxkeys.ai",
   dashboardUrl: "https://dash.boxkeys.ai",
   githubUrl: "https://github.com/yingjunwu/boxkeys-cli",
@@ -18,9 +18,9 @@ export const NAV_LINKS = [
 
 export const FEATURES = [
   {
-    title: "Unified API",
+    title: "Models + Tools",
     description:
-      "One key to access multiple AI models. OpenAI-compatible format — use your existing SDK.",
+      "AI models alongside built-in tools — search, web crawl, and more. OpenAI-compatible format.",
     icon: "api",
   },
   {

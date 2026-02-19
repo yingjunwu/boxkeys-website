@@ -36,7 +36,7 @@ export function Features() {
               to ship with AI
             </h2>
             <p className="mx-auto mt-6 max-w-lg text-base text-muted">
-              One integration for all major AI providers.
+              Models, tools, and more — one integration.
             </p>
           </div>
         </FadeIn>
